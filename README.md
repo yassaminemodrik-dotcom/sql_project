@@ -52,7 +52,7 @@ ORDER BY
 salary_year_avg DESC
 LIMIT 10
 ```
-![top paying jobs](assets\1_top_paying_roles.png)
+![Top Paying Roles](assets/1_top_paying_roles.png)
 
 Here are the key insights derived from the top-paying data analyst roles analysis:
 
@@ -92,7 +92,7 @@ top_paying_jobs
 INNER JOIN skills_job_dim ON top_paying_jobs.job_id=skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id=skillS_dim.skill_id
 ```
-![top skills](assets\2_skills_top_paying_jobs.png)
+![Skills for Top Paying Jobs](assets/2_skills_top_paying_jobs.png)
 
 **Main Insights**
 
@@ -127,7 +127,7 @@ skill_demand_count DESC
 limit 10;
 ```
 
-![demanded skills](assets\10_top_demanded_skills.png)
+![Top Demanded Skills](assets/10_top_demanded_skills.png)
 Here are the 3 main key takeaways from the chart:
 - **SQL is the Undisputed Foundation**: With 24,099 job postings, SQL leads by a massive margin—appearing in nearly 60% more job descriptions than the second-place tool. 
 - **Core Triad (SQL, Excel, Python)**: Traditional tools like Excel (15,154) remain essential alongside Python (14,246), proving that baseline spreadsheet mastery and programming form the primary baseline for general job demand.
